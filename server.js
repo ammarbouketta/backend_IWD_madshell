@@ -5,7 +5,7 @@ const dotEnv = require("dotenv");
 dotEnv.config();
 
 
-app.use( express.static("C:/Users/dell/backend-IWD-MADShell/uploads"));
+app.use( express.static("C:/Users/dell/backend-IWD/IWD-2k22-MadShell/uploads"));
 const cors = require ('cors');
 app.use(cors());
 
