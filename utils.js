@@ -1,4 +1,5 @@
-recommend = () => {
+const recommend = () => {
+
     jobs = {
         "Teacher": 0,
         "Lawyer": 0,
@@ -6,16 +7,22 @@ recommend = () => {
         "Computer Scientist": 0,
         "Interpreter": 0,
         "Architect": 0,
-        "Accountant ": 0,
+        "Accountant": 0,
         "Author": 0,
         "Doctor": 0
     }
-    let question, questions = "";
-    for (question in questions) {
-        switch (question.text) {
+    let question, questions = [{
+        "text": "Are you a numbers whiz?",
+        "option": "Yes! I'm the next Einstein!"
+    }];
+    for (question of questions) {
+        console.log(question)
+        switch (question["text"]) {
             case "Are you a numbers whiz?":
-                switch (question.option) {
+                console.log("here")
+                switch (question["option"]) {
                     case "Yes! I'm the next Einstein!":
+
                         jobs["Computer Scientist"]++;
                         jobs["Architect"]++;
                         jobs["Accountant"]++;
@@ -190,5 +197,7 @@ recommend = () => {
                 break;
         }
     }
-    return Object.keys(jobs).reduce((a, b) => obj[a] > obj[b] ? a : b);
+    console.log(jobs);
+    return Object.keys(jobs).reduce((a, b) => jobs[a] > jobs[b] ? a : b);
 }
+console.log(recommend());
