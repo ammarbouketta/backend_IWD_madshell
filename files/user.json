@@ -1,3 +1,10 @@
 [
-    
+    {
+        "nom": "ammar",
+        "prenom": "bouketta",
+        "email": "ammarbouketta@gmail.com",
+        "password": "$2b$10$XAN.d4Ufei4qj4BFeMKANOxu6LoizFLEewoLKxOE93AxROG6ZZu2O",
+        "___id": "T000004R000002",
+        "___s": true
+    }
 ]
