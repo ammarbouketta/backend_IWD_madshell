@@ -6,9 +6,9 @@
 2. Clone the forked repository locally
 git clone https://github.com/${your_username}/backend-projet-2CP.git
 3. Setup upstream remote repository (base repo)
-git remote add upstream https://github.com/ahmedmokeddem/backend-projet-2CP.git
+git remote add upstream https://github.com/ammarbouketta/backend-projet-2CP.git
 4. Always pull from upstream before working on a new feature
-using "git pull https://github.com/ahmedmokeddem/backend-projet-2CP.git"
+using "git pull https://github.com/ammarbouketta/backend-projet-2CP.git"
 5. Make a separate branch when working on a new feature using 
 "git checkout -b add-feature-name"
 7. Make changes locally
